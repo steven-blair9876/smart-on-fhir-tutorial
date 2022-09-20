@@ -65,7 +65,6 @@
       } else {
         onError();
       }
-      alert(smart);
     }
 
     FHIR.oauth2.ready(onReady, onError);
