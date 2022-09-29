@@ -9,6 +9,8 @@
 
     function onReady(smart)  {
       console.log('onReady hit');
+      console.log('username: ' + client.getState('tokenResponse.username'));
+     
 //       if (smart.hasOwnProperty('patient')) {
 //         var patient = smart.patient;
 //         var pt = patient.read();
